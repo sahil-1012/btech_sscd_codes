@@ -6,7 +6,7 @@ gcc lex.yy.c [Header_FIle].c
 
 
 Example
-lex compsint.l
-yacc -d compsint.y
+lex compound.l
+yacc -d compound.y
 gcc lex.yy.c y.tab.c
 ./a.out
